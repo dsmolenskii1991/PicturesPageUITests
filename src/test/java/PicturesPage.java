@@ -11,7 +11,6 @@ public class PicturesPage {
     //Локаторы на странице
     By searchByPictureXpath = By.xpath("//div[contains(@class, 'cbir-button')]");
     By searchFileTextFieldXpath = By.name("cbir-url");
-    //By searchFileTextFieldXpath = By.xpath("//input[@name = 'cbir-url']");
     By searchFileButtonXpath = By.name("cbir-submit");
     By firstTagInRecognizedPicturesListXpath = By.xpath("//div[contains(@class, 'CbirTags')]//a[1]");
     By inputFileDialogXpath = By.xpath("//input[@name = 'upfile']");
